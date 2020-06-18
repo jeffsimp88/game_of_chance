@@ -7,9 +7,10 @@ function enemy(){
 
 function display(x){
     let title = document.createElement("div");
-    title.textContent = x;
-    document.body.appendChild(title)
-}
+    title.textContent = 'Your opponent chose ' + x +'! ';
+    title.style.marginLeft = '15px';
+    document.getElementById('opponent').appendChild(title);
+    }
 
 
 function rock(){
