@@ -5,11 +5,13 @@ function enemy(){
     return choices[x]
 }
 
+let title = document.createElement("div");
 function display(x){
-    let title = document.createElement("div");
     title.textContent = 'Your opponent chose ' + x +'! ';
     title.style.marginLeft = '15px';
+    title.style.fontSize = '20px'
     document.getElementById('opponent').appendChild(title);
+    
     }
 
 
