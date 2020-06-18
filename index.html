@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A game of chance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Here is a game of chance....MWAHAHAHA!</h1>
+    
+    <div id="buttons">
+        <button onclick="document.getElementById('rock').innerHTML = rock()">Rock</button>
+        <button onclick="document.getElementById('paper').innerHTML = paper()">Paper</button>
+        <button onclick="document.getElementById('scissors').innerHTML = scissors()">Scissors</button>
+        
+        </div>
+        
+    <div id="itemBox">
+        <p id="rock"></p>
+        <p id="paper"></p>
+        <p id="scissors"></p>
+    
+        </div>
+    <div id='opponent'></div>
+
+                
+
+    <script src="script.js"></script>
+</body>
+</html>
