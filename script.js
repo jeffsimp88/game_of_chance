@@ -60,7 +60,7 @@ function scissors(){
 }
 
 
-let ballOptions = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes – definitely.", "You may rely on it.", "As I see it.", "Yes.", "Most likely.", "Outlook good.", "Yes.", "Signs point to yes.", "Reply hazy.", "Try Again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.", "Don't count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."]
+let ballOptions = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes – definitely.", "You may rely on it.", "As I see it.", "Yes.", "Most likely.", "Outlook good.", "Yes.", "Signs point to yes.", "Reply hazy.", "Try Again.", "Ask again later.", "Better not tell you.", "Cannot predict now.", "Ask again.", "Don't count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."]
 
 function magicBall(){
     let x =  Math.floor(Math.random()*22);     

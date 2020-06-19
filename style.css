@@ -114,7 +114,7 @@ h3{
 #answer{
     background-image: url("imgs/speechBubble.png");
     background-repeat: no-repeat;
-    padding-left: 42px;
+    padding-bottom: 35px;
     font-family: 'Cinzel', serif; 
     font-weight: bold;
     font-size: 25px;
@@ -124,5 +124,5 @@ h3{
     width: 500px;
     margin-top: 7px;
     display: flex;
-    align-content: center;
+  
 }
