@@ -27,10 +27,13 @@
 
 <br>
 <!-- Magic Conch -->
-   <div id="magicBall">
-        <h2>All hail the Magic Conch!</h2>
-        <h3>Ask the Magic Conch your deepest questions and it will answer.</h3>
-        <button id = "magicConch" onclick="document.getElementById('answer').innerHTML = magicBall()"><img src='imgs/magicConch.png'></button>
+<h2>All hail the Magic Conch!</h2>
+<h3>Ask the Magic Conch your deepest questions and it will answer.</h3>
+    <div class="conch">
+        <button id = "magicConch" onclick="document.getElementById('answer').innerHTML = 
+                magicBall() + '<br>' + 'The Conch has Spoken!'">
+                <img src='imgs/magicConch.png'>
+            </button>
         <p id='answer'></p>
    </div>     
 
