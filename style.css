@@ -11,6 +11,8 @@ h1{
     font-family: 'Staatliches', cursive;
     font-size: 50px;
     color: rgb(197, 110, 3);
+    border-left: 10px solid rgb(197, 110, 3);
+    padding: 10px;
 }
 h2{
     font-family: 'Cinzel', serif;
