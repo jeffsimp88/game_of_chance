@@ -16,6 +16,22 @@ function display(x){
     
     }
 
+let img = document.createElement('img');
+function picture(x){
+    img.style.width = '90%'
+    img.style.height = '90%'
+    img.style.padding = '5px'
+    if(x === 'Rock'){
+        img.src = 'imgs/rock.png'
+        document.getElementById('opponentHand').appendChild(img)
+    } else if (x === 'Paper'){
+        img.src = 'imgs/paper.png'
+        document.getElementById('opponentHand').appendChild(img)
+    } else {
+            img.src = 'imgs/scissors.png'
+            document.getElementById('opponentHand').appendChild(img)
+        }
+}
 
 function rock(){
     let result = ' '
@@ -28,6 +44,7 @@ function rock(){
         result = 'IT\'S A TIE'
     }    
     display(a)
+    picture(a)
     return result
 }
 
@@ -42,6 +59,7 @@ function paper(){
         result = 'IT\'S A TIE'
     }
     display(a)
+    picture(a)
     return result
 }
 
@@ -56,6 +74,7 @@ function scissors(){
         result = 'IT\'S A TIE'
     }
     display(a)
+    picture(a)
     return result
 }
 
