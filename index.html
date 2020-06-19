@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A game of chance</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Here is a game of chance....MWAHAHAHA!</h1>
-    <h2>Choose your weapon!</h2>
     
-    <div id="displayBox">
+    <h2>Choose your weapon!</h2>
+    <div id="rps">
         
         <div id="buttons">
-            <button onclick="document.getElementById('result').innerHTML = rock()"><img src="imgs/rock.png">Rock</button>
-            <button onclick="document.getElementById('result').innerHTML = paper()"><img src="imgs/paper.png">Paper</button>
-            <button onclick="document.getElementById('result').innerHTML = scissors()"><img src="imgs/scissors.png">Scissors</button>
+            <button onclick="document.getElementById('result').innerHTML = rock()"><img id='hands' src="imgs/rock.png">Rock</button>
+            <button onclick="document.getElementById('result').innerHTML = paper()"><img id='hands'src="imgs/paper.png">Paper</button>
+            <button onclick="document.getElementById('result').innerHTML = scissors()"><img id='hands'src="imgs/scissors.png">Scissors</button>
                 
             </div>
-        
-
         <p id='result'></p>
-    
         <div id='opponent'></div>
-        
     </div>
+
+   <div id="magicBall">
+        <h2>All hail the Magic Conch!</h2>
+        <h3>Ask the Magic Conch your deepest questions and it will answer.</h3>
+        <button id = "magicConch" onclick="document.getElementById('answer').innerHTML = magicBall()"><img src='imgs/magicConch.png'></button>
+        <p id='answer'></p>
+   </div>     
              
     <script src="script.js"></script>
 </body>
